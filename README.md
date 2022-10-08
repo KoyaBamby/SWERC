@@ -1,5 +1,4 @@
 # Exercices d'entrainement au SWERC
----
 - [x] [Hello World!](https://open.kattis.com/problems/hello)
 - [x] [Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers)
 - [x] [A Real Challenge](https://open.kattis.com/problems/areal)
