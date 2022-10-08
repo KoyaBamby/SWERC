@@ -4,7 +4,7 @@
 - [x] [A Real Challenge](https://open.kattis.com/problems/areal)
 - [x] [Mixed Fractions](https://open.kattis.com/problems/mixedfractions)
 - [x] [Sort](https://open.kattis.com/problems/sort)
-- [ ] [Engineering English](https://open.kattis.com/problems/engineeringenglish?editsubmit=9573427)
+- [x] [Engineering English](https://open.kattis.com/problems/engineeringenglish?editsubmit=9573427)
 - [ ] [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1)
 - [ ] [Longest Prime Sum](https://open.kattis.com/problems/longestprimesum)
 - [ ] [Money Matters](https://open.kattis.com/problems/moneymatters)
