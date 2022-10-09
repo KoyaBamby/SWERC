@@ -6,7 +6,7 @@
 - [x] [Sort](https://open.kattis.com/problems/sort)
 - [x] [Engineering English](https://open.kattis.com/problems/engineeringenglish?editsubmit=9573427)
 - [ ] [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1)
-- [ ] [Longest Prime Sum](https://open.kattis.com/problems/longestprimesum)
+- [x] [Longest Prime Sum](https://open.kattis.com/problems/longestprimesum)
 - [ ] [Money Matters](https://open.kattis.com/problems/moneymatters)
 - [ ] [Mountain Biking](https://open.kattis.com/problems/mountainbiking)
 - [ ] [Ocean's Anti-11](https://open.kattis.com/problems/anti11)
