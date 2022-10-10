@@ -10,7 +10,7 @@ public class basicprogramming1 {
         int n = sc.nextInt();
         int t = sc.nextInt();
 
-        int[] tabA = new int[n];
+        long[] tabA = new long[n];
 
         for (int j = 0; j < n; j++) {
             tabA[j] = sc.nextInt();
@@ -29,7 +29,7 @@ public class basicprogramming1 {
                     System.out.println("Smaller");
                 break;
             case 3:
-                int[] tabA3 = { tabA[0], tabA[1], tabA[2] };
+                long[] tabA3 = { tabA[0], tabA[1], tabA[2] };
                 Arrays.sort(tabA3);
                 System.out.println(tabA3[1]);
                 break;
@@ -41,17 +41,17 @@ public class basicprogramming1 {
                 break;
             case 6:
                 StringBuilder sb = new StringBuilder();
-                for (int i : tabA) {
+                for (long i : tabA) {
                     sb.append((char) ((i % 26) + 97));
                 }
                 System.out.println(sb.toString());
                 break;
             case 7:
-                int index = 0;
+                long index = 0;
                 Set<Integer> indexs = new HashSet<>();
                 while (true) {
-                    index = tabA[index];
-                    if (!indexs.add(index)) {
+                    index = tabA[(int) index];
+                    if (!indexs.add((int) index)) {
                         System.out.println("Cyclic");
                         break;
                     }
