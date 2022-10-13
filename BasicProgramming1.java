@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class basicprogramming1 {
+public class BasicProgramming1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -44,7 +44,7 @@ public class basicprogramming1 {
                 for (long i : tabA) {
                     sb.append((char) ((i % 26) + 97));
                 }
-                System.out.println(sb.toString());
+                System.out.println(sb);
                 break;
             case 7:
                 long index = 0;

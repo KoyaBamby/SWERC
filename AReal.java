@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class areal{
+public class AReal {
     public static void main(String[] args) throws NumberFormatException{
         Scanner sc = new Scanner(System.in);
         

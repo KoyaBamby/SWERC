@@ -1,9 +1,7 @@
 import java.util.Arrays;
-import java.util.IllegalFormatWidthException;
-import java.util.Map;
 import java.util.Scanner;
 
-public final class moneymatters {
+public final class MoneyMatters {
 
     public static void main(String[] args) {
         final Scanner sc = new Scanner(System.in);
@@ -32,8 +30,8 @@ public final class moneymatters {
 
     private static class MapRembourse{
 
-        private int[] tabDette;
-        private int[] rembourseMap;
+        private final int[] tabDette;
+        private final int[] rembourseMap;
 
         public MapRembourse(int[] tabDette) {
             this.tabDette = tabDette;

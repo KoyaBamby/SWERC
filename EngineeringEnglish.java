@@ -1,12 +1,7 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
-public class engineeringenglish {
+public class EngineeringEnglish {
     public static void main(String[] args) {
         final Scanner s = new Scanner(System.in);
         List<String> text = new ArrayList<>();
