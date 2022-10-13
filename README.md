@@ -7,7 +7,7 @@
 - [x] [Engineering English](https://open.kattis.com/problems/engineeringenglish?editsubmit=9573427)
 - [x] [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1)
 - [x] [Longest Prime Sum](https://open.kattis.com/problems/longestprimesum)
-- [ ] [Money Matters](https://open.kattis.com/problems/moneymatters)
+- [x] [Money Matters](https://open.kattis.com/problems/moneymatters)
 - [x] [Mountain Biking](https://open.kattis.com/problems/mountainbiking)
 - [ ] [Ocean's Anti-11](https://open.kattis.com/problems/anti11)
 - [ ] [Zipline](https://open.kattis.com/problems/zipline)

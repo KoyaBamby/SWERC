@@ -1,54 +1,77 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.IllegalFormatWidthException;
+import java.util.Map;
 import java.util.Scanner;
-import java.util.Set;
 
-public class moneymatters {
+public final class moneymatters {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
+        final Scanner sc = new Scanner(System.in);
 
-        int[] dette = new int[n];
+        final int n = sc.nextInt();
+        final int m = sc.nextInt();
 
-        List<Set<Integer>> s = new ArrayList<>();
-
+        int[] tabDette = new int[n];
         for (int i = 0; i < n; i++) {
-            dette[i] = sc.nextInt();
+            tabDette[i] = sc.nextInt();
         }
 
-        int a, b;
+        MapRembourse mapRembourse = new MapRembourse(tabDette);
+
         for (int i = 0; i < m; i++) {
-            a = sc.nextInt();
-            b = sc.nextInt();
-            for (Set<Integer> setInt : s) {
-                if (setInt.contains(a) || setInt.contains(b)) {
-                    setInt.add(a);
-                    setInt.add(b);
-                }
-            }
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+
+            mapRembourse.rembourse(a,b);
         }
 
-        for (Set<Integer> set : s) {
-            for (Set<Integer> set2 : s) {
-                if (set.containsAll(set2) && !set.equals(set2)) {
-                    set.addAll(set2);
-                    set2.clear();
-                }
-            }
-        }
+            System.out.println(mapRembourse.estPossible() ? "POSSIBLE":"IMPOSSIBLE");
 
-        boolean poss = true;
-
-        for (Set<Integer> set : s) {
-            if (set.stream().mapToInt(v -> dette[v]).sum() != 0) {
-                System.out.println("IMPOSSIBLE");
-                poss = false;
-            }
-        }
-        if(poss) System.out.println("POSSIBLE");
         sc.close();
     }
+
+    private static class MapRembourse{
+
+        private int[] tabDette;
+        private int[] rembourseMap;
+
+        public MapRembourse(int[] tabDette) {
+            this.tabDette = tabDette;
+            rembourseMap = new int[tabDette.length];
+            for (int i = 0; i < tabDette.length; i++) {
+                rembourseMap[i] = i;
+            }
+        }
+
+        public boolean estPossible(){
+            return Arrays.stream(tabDette).allMatch(v -> v==0);
+        }
+
+        private int getIndexDeRemboursement(int indexPersonne){
+            int indexPersonneEnCours = indexPersonne;
+
+            while(rembourseMap[indexPersonneEnCours] != indexPersonneEnCours){
+                indexPersonneEnCours = rembourseMap[indexPersonneEnCours];
+            }
+            rembourseMap[indexPersonne] = indexPersonneEnCours;
+
+            return indexPersonneEnCours;
+        }
+
+        public void rembourse(int a, int b){
+            int bMoney = getIndexDeRemboursement(a);
+            int aMoney = getIndexDeRemboursement(b);
+
+            egalise(bMoney, aMoney);
+            rembourseMap[bMoney] = aMoney;
+        }
+
+        private void egalise(int a, int b){
+            int argent = tabDette[a];
+
+            tabDette[a] -= argent;
+            tabDette[b] += argent;
+        }
+    }
+
 }
