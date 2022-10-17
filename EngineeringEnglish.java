@@ -23,5 +23,7 @@ public class EngineeringEnglish {
         }
         sb.deleteCharAt(sb.length() - 1);
         System.out.println(sb);
+
+        s.close();
     }
 }
