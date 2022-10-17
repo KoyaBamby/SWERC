@@ -11,4 +11,4 @@
 - [x] [Mountain Biking](https://open.kattis.com/problems/mountainbiking)
 - [x] [Ocean's Anti-11](https://open.kattis.com/problems/anti11)
 - [x] [Zipline](https://open.kattis.com/problems/zipline)
-- [ ] [Secret Santa](https://open.kattis.com/problems/secretsanta)
+- [x] [Secret Santa](https://open.kattis.com/problems/secretsanta)
