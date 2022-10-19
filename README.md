@@ -12,3 +12,4 @@
 - [x] [Ocean's Anti-11](https://open.kattis.com/problems/anti11)
 - [x] [Zipline](https://open.kattis.com/problems/zipline)
 - [x] [Secret Santa](https://open.kattis.com/problems/secretsanta)
+- [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
