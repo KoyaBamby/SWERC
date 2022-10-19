@@ -1,4 +1,5 @@
 # Exercices d'entrainement au SWERC
+## Session 1 :
 - [x] [Hello World!](https://open.kattis.com/problems/hello)
 - [x] [Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers)
 - [x] [A Real Challenge](https://open.kattis.com/problems/areal)
@@ -12,4 +13,7 @@
 - [x] [Ocean's Anti-11](https://open.kattis.com/problems/anti11)
 - [x] [Zipline](https://open.kattis.com/problems/zipline)
 - [x] [Secret Santa](https://open.kattis.com/problems/secretsanta)
+
+## Bonus :
 - [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
+- [ ] [Pairing Socks](https://open.kattis.com/problems/pairingsocks)
