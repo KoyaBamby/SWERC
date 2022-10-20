@@ -15,7 +15,7 @@
 - [x] [Secret Santa](https://open.kattis.com/problems/secretsanta)
 
 ## Session 2 :
-- [ ] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
+- [x] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
 - [ ] [Babelfish](https://open.kattis.com/problems/babelfish)
 - [ ] [Trip Planning](https://open.kattis.com/problems/tripplanning)
 
