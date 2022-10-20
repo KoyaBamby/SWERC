@@ -18,6 +18,12 @@
 - [x] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
 - [x] [Babelfish](https://open.kattis.com/problems/babelfish)
 - [ ] [Trip Planning](https://open.kattis.com/problems/tripplanning)
+- [ ] [Sky Islands](https://open.kattis.com/problems/skyislands)
+- [ ] [Slikar](https://open.kattis.com/problems/slikar)
+- [ ] [Cantina of Babel](https://open.kattis.com/problems/cantinaofbabel)
+- [ ] [Falling Apples](https://open.kattis.com/problems/apples)
+- [ ] [Path Tracing](https://open.kattis.com/problems/pathtracing)
+- [ ] [Lost In The Woods](https://open.kattis.com/problems/lostinthewoods)
 
 ## Bonus :
 - [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
