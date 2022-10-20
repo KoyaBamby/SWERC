@@ -16,7 +16,7 @@
 
 ## Session 2 :
 - [x] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
-- [ ] [Babelfish](https://open.kattis.com/problems/babelfish)
+- [x] [Babelfish](https://open.kattis.com/problems/babelfish)
 - [ ] [Trip Planning](https://open.kattis.com/problems/tripplanning)
 
 ## Bonus :
