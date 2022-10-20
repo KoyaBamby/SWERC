@@ -17,7 +17,7 @@
 ## Session 2 :
 - [x] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
 - [x] [Babelfish](https://open.kattis.com/problems/babelfish)
-- [ ] [Trip Planning](https://open.kattis.com/problems/tripplanning)
+- [x] [Trip Planning](https://open.kattis.com/problems/tripplanning)
 - [ ] [Sky Islands](https://open.kattis.com/problems/skyislands)
 - [ ] [Slikar](https://open.kattis.com/problems/slikar)
 - [ ] [Cantina of Babel](https://open.kattis.com/problems/cantinaofbabel)
