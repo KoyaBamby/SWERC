@@ -14,6 +14,11 @@
 - [x] [Zipline](https://open.kattis.com/problems/zipline)
 - [x] [Secret Santa](https://open.kattis.com/problems/secretsanta)
 
+## Session 2 :
+- [ ] [I've Been Everywhere, Man](https://open.kattis.com/problems/everywhere)
+- [ ] [Babelfish](https://open.kattis.com/problems/babelfish)
+- [ ] [Trip Planning](https://open.kattis.com/problems/tripplanning)
+
 ## Bonus :
 - [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
 - [ ] [Pairing Socks](https://open.kattis.com/problems/pairingsocks)
