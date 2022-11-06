@@ -25,9 +25,6 @@ public class SkyIslands {
                 } else {
                     System.out.println("NO");
                 }
-                for (int i : islands) {
-                    System.out.println(i);
-                }
                 break;
             }
         }
@@ -38,12 +35,14 @@ public class SkyIslands {
     private static void union(int a, int b) {
         int parentA = findParent(a);
         int parentB = findParent(b);
-        if (islands[parentA] < islands[parentB]) {
-            islands[parentB] += islands[parentA];
-            islands[parentA] = parentB;
-        } else {
-            islands[parentA] += islands[parentB];
-            islands[parentB] = parentA;
+        if (parentA != parentB) {
+            if (islands[parentA] >= islands[parentB]) {
+                islands[parentB] += islands[parentA];
+                islands[parentA] = parentB;
+            } else {
+                islands[parentA] += islands[parentB];
+                islands[parentB] = parentA;
+            }
         }
     }
 
