@@ -25,6 +25,16 @@
 - [ ] [Path Tracing](https://open.kattis.com/problems/pathtracing)
 - [ ] [Lost In The Woods](https://open.kattis.com/problems/lostinthewoods)
 
+## Session 3 :
+- [ ] [https://open.kattis.com/problems/shatteredcake](Shattered Cake)
+- [ ] [https://open.kattis.com/problems/cprnummer](CPR Number)
+- [ ] [https://open.kattis.com/problems/reducedidnumbers](Reduced ID Numbers)
+- [ ] [https://open.kattis.com/problems/industrialspy](An Industrial Spy)
+- [ ] [https://open.kattis.com/problems/fibonaccicycles](Fibonacci Cycles)
+- [ ] [https://open.kattis.com/problems/pseudoprime](Pseudoprime numbers)
+- [ ] [https://open.kattis.com/problems/fundamentalneighbors](Fundamental Neighbors)
+- [ ] [https://open.kattis.com/problems/primematrix](Prime Matrix)
+
 ## Bonus :
 - [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
 - [ ] [Pairing Socks](https://open.kattis.com/problems/pairingsocks)
