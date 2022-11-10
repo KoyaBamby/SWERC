@@ -26,7 +26,7 @@
 - [ ] [Lost In The Woods](https://open.kattis.com/problems/lostinthewoods)
 
 ## Session 3 :
-- [ ] [https://open.kattis.com/problems/shatteredcake](Shattered Cake)
+- [x] [https://open.kattis.com/problems/shatteredcake](Shattered Cake)
 - [ ] [https://open.kattis.com/problems/cprnummer](CPR Number)
 - [ ] [https://open.kattis.com/problems/reducedidnumbers](Reduced ID Numbers)
 - [ ] [https://open.kattis.com/problems/industrialspy](An Industrial Spy)
