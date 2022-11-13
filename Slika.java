@@ -17,12 +17,13 @@ public class Slika {
 
         int numberOfSave = 0;
 
+        // stock the command ordinal and next to it the argument with reverse order
         for (int i = m - 1; i >= 0 ; i--) {
             final String command = sc.next();
             final CommandEnum commandEnum = CommandEnum.valueOf(command);
             switch (commandEnum) {
                 case SAVE: {
-                    saveNumberWithCommandIndex.put(++numberOfSave, i);
+                    saveNumberWithCommandIndex.put(++numberOfSave, i); // if save command stock the address to jump when we will execute the command
                     instructions[i] = new int[]{2};
                     break;
                 }
@@ -39,8 +40,8 @@ public class Slika {
         final boolean [][] caseEdited = new boolean[n][n];
         int countNumberOfCaseEdited = 0;
         int i = 0;
+        //execute commands and jump to the next command
         while (countNumberOfCaseEdited < n*n && i < m){
-//            System.out.println(i);
             int command = instructions[i][0];
             switch (command){
                 case 0:{
@@ -49,7 +50,6 @@ public class Slika {
                     int y1 = instructions[i][3];
                     int x2 = instructions[i][4];
                     int y2 = instructions[i][5];
-//                    System.out.println(c + " " + x1 + " " + y1 + " " + x2 + " " + y2);
                     boolean shift = true;
                     for (int j = x1; j <= x2 ; j++) {
                         for (int l = shift ? y1 : y1 + 1; l <= y2; l+=2) {
@@ -65,12 +65,12 @@ public class Slika {
                 }
                 case 1:{
                     i = saveNumberWithCommandIndex.get(instructions[i][1]);
-//                    System.out.println(i);
                 }
             }
             i++;
         }
 
+        //print the painting
         StringBuilder sb = new StringBuilder();
         for (int [] lines: canvas ) {
             for (int line : lines) {
