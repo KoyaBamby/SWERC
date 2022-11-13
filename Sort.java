@@ -1,10 +1,4 @@
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.stream.Collectors;
+import java.util.*;
 
 public class Sort {
 
@@ -35,14 +29,14 @@ public class Sort {
             valeurs.put(suivant, nombre);
         }
 
-        List<Nombre> listNombre = valeurs.values().stream().collect(Collectors.toList());
+        List<Nombre> listNombre = new ArrayList<>(valeurs.values());
         Comparator<Nombre> byOccurence = (n1,n2) -> {
             if(n1.occurence != n2.occurence) return n2.occurence - n1.occurence;
             return n1.index - n2.index;
         };
-        Collections.sort(listNombre,byOccurence);
-        
-        StringBuilder sb = new StringBuilder();
+        listNombre.sort(byOccurence);
+
+        final StringBuilder sb = new StringBuilder();
         for (Nombre nombre : listNombre) {
             for (int i = 0; i < nombre.occurence; i++) {
                 sb.append(nombre.nombre).append(" ");
@@ -54,4 +48,3 @@ public class Sort {
         sc.close();
     }
 }
-
