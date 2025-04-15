@@ -26,14 +26,14 @@
 - [ ] [Lost In The Woods](https://open.kattis.com/problems/lostinthewoods)
 
 ## Session 3 :
-- [x] [https://open.kattis.com/problems/shatteredcake](Shattered Cake)
-- [ ] [https://open.kattis.com/problems/cprnummer](CPR Number)
-- [ ] [https://open.kattis.com/problems/reducedidnumbers](Reduced ID Numbers)
-- [ ] [https://open.kattis.com/problems/industrialspy](An Industrial Spy)
-- [ ] [https://open.kattis.com/problems/fibonaccicycles](Fibonacci Cycles)
-- [ ] [https://open.kattis.com/problems/pseudoprime](Pseudoprime numbers)
-- [ ] [https://open.kattis.com/problems/fundamentalneighbors](Fundamental Neighbors)
-- [ ] [https://open.kattis.com/problems/primematrix](Prime Matrix)
+- [x] [Shattered Cake](https://open.kattis.com/problems/shatteredcake)
+- [ ] [CPR Number](https://open.kattis.com/problems/cprnummer)
+- [ ] [Reduced ID Numbers](https://open.kattis.com/problems/reducedidnumbers)
+- [ ] [An Industrial Spy](https://open.kattis.com/problems/industrialspy)
+- [ ] [Fibonacci Cycles](https://open.kattis.com/problems/fibonaccicycles)
+- [ ] [Pseudoprime numbers](https://open.kattis.com/problems/pseudoprime)
+- [ ] [Fundamental Neighbors](https://open.kattis.com/problems/fundamentalneighbors)
+- [ ] [Prime Matrix](https://open.kattis.com/problems/primematrix)
 
 ## Bonus :
 - [ ] [Watch Out For Those Hailstones!](https://open.kattis.com/problems/hailstone)
